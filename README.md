@@ -50,7 +50,6 @@ pnpm lint:css:fix
 # Download API schemas. Used in development mode to minimize the amount of requests to the API
 pnpm schema
 ```
-
 > [!NOTE]  
 > Only development mode is using Turbopack atm. This will change in the future when Turbopack supports build process. Be aware that Turbopack is the successor of Webpack meaning it's [not 1:1 compatible](https://turbo.build/pack/docs/migrating-from-webpack).
 
